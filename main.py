@@ -1,3 +1,5 @@
+import random
+
 def ask_question(question_dictionary):
     print(f"\n{question_dictionary["question"]}")
     for option in question_dictionary["options"]:
@@ -7,6 +9,7 @@ def ask_question(question_dictionary):
 
 def run_quiz(questions):
     score = 0
+    random.shuffle(questions)
     for question_dict in questions:
         correct = ask_question(question_dict)
         if correct:
