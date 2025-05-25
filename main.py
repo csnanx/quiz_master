@@ -73,4 +73,11 @@ questions = [
 ]
 
 score = run_quiz(questions)
-print(f"Your score is: {score}")
+print(f"\nYour score is: {score}")
+
+if score > 8:
+    print("Excellent!")
+elif score > 5:
+    print("Good job!")
+else:
+    print("Keep practicing!")
