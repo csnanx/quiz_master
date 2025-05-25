@@ -5,6 +5,17 @@ def ask_question(question_dictionary):
     user_answer = input("Enter your answer here: ")
     return user_answer.lower() == question_dictionary["answer"].lower()
 
+def run_quiz(questions):
+    score = 0
+    for question_dict in questions:
+        correct = ask_question(question_dict)
+        if correct:
+            print("Congrats! 👏\nYou gain 1 point.")
+            score += 1
+        else:
+            print("Incorrect 😭")
+    return score
+
 questions = [
     {
         "question": "What is the capital of Japan?",
@@ -58,3 +69,5 @@ questions = [
     }
 ]
 
+score = run_quiz(questions)
+print(f"Your score is: {score}")
