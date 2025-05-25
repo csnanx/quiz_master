@@ -1,3 +1,18 @@
+def increment_score():
+    global score
+    score += 1
+
+def ask_question(question_dictionary):
+    print(f"\n{question_dictionary["question"]}")
+    for option in question_dictionary["options"]:
+        print(option)
+    user_answer = input("Enter your answer here: ").lower()
+    if user_answer == question_dictionary["answer"].lower():
+        print("Correct 👏\nYou gain 1 point.")
+        increment_score()
+    else:
+        print("Incorrect 😭")
+
 questions = [
     {
         "question": "What is the capital of Japan?",
@@ -50,3 +65,5 @@ questions = [
         "answer": ".py"
     }
 ]
+
+score = 0
