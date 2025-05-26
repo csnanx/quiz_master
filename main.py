@@ -22,53 +22,53 @@ def run_quiz(questions):
 questions = [
     {
         "question": "What is the capital of Japan?",
-        "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
-        "answer": "Tokyo"
+        "options": ["A. Seoul", "B. Beijing", "C. Tokyo", "D. Bangkok"],
+        "answer": "C"
     },
     {
         "question": "Which language is primarily used for data analysis and machine learning?",
-        "options": ["C++", "JavaScript", "Python", "HTML"],
-        "answer": "Python"
+        "options": ["A. C++", "B. JavaScript", "C. Python", "D. HTML"],
+        "answer": "C"
     },
     {
         "question": "What planet is known for its rings?",
-        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-        "answer": "Saturn"
+        "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Saturn"],
+        "answer": "D"
     },
     {
         "question": "What does CPU stand for?",
-        "options": ["Central Process Unit", "Central Processing Unit", "Computer Processing Unit", "Control Processing Unit"],
-        "answer": "Central Processing Unit"
+        "options": ["A. Central Process Unit", "B. Central Processing Unit", "C. Computer Processing Unit", "D. Control Processing Unit"],
+        "answer": "B"
     },
     {
         "question": "Which keyword is used to define a function in Python?",
-        "options": ["func", "def", "function", "lambda"],
-        "answer": "def"
+        "options": ["A. func", "B. def", "C. function", "D. lambda"],
+        "answer": "B"
     },
     {
         "question": "Which ocean is the largest?",
-        "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
-        "answer": "Pacific"
+        "options": ["A. Atlantic", "B. Indian", "C. Pacific", "D. Arctic"],
+        "answer": "C"
     },
     {
         "question": "What is the result of 3 ** 2 in Python?",
-        "options": ["6", "9", "8", "5"],
-        "answer": "9"
+        "options": ["A. 6", "B. 9", "C. 8", "D. 5"],
+        "answer": "B"
     },
     {
         "question": "Who wrote the novel '1984'?",
-        "options": ["George Orwell", "Mark Twain", "J.K. Rowling", "Ernest Hemingway"],
-        "answer": "George Orwell"
+        "options": ["A. George Orwell", "B. Mark Twain", "C. J.K. Rowling", "D. Ernest Hemingway"],
+        "answer": "A"
     },
     {
         "question": "Which gas do plants absorb from the atmosphere?",
-        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
-        "answer": "Carbon Dioxide"
+        "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"],
+        "answer": "C"
     },
     {
         "question": "What is the file extension for a Python file?",
-        "options": [".pt", ".py", ".p", ".python"],
-        "answer": ".py"
+        "options": ["A. .pt", "B. .py", "C. .p", "D. .python"],
+        "answer": "B"
     }
 ]
 
